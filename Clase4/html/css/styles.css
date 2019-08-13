@@ -1,0 +1,108 @@
+/* GENERALES */
+
+*{
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+a{
+  color: white;
+}
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* CUERPO */
+
+.container{
+  overflow: hidden;
+}
+
+.fondomenu{
+  background-color: #2C3E50;
+  position: relative;
+}
+
+.alineacion{
+  position: absolute;
+  right: 1%;
+}
+
+/* HOME */
+
+.portafolio{
+  text-align: center;
+  background-color: #18BC9C;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.portafolio img{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.portafolio hr{
+  width: 20%;
+  height: 2px;
+  background-color: white;
+  position: relative;
+}
+
+.estrella{
+  position: absolute;
+  top: 81%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  background-color: #18BC9C;
+}
+
+.text-final{
+  padding-bottom: 40px;
+}
+
+/* PORTAFOLIO */
+
+.portafolio-img{
+  text-align: center;
+}
+
+.portafolio-img h3{
+  color: black;
+  display: inline;
+  text-align: center;
+}
+
+.portafolio-img hr{
+  background-color: black;
+  width: 20%;
+  height: 2px;
+}
+
+.port-img{
+  position: relative;
+  margin-top: 30px;
+}
+
+.star-black{
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,24 @@
+.borde{
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.borde1{
+  border: 2px solid red;
+  overflow: hidden;
+}
+
+.borde2{
+  border: 2px solid yellow;
+  overflow: hidden;
+}
+
+.borde3{
+  border: 2px solid blue;
+  float: left;
+}
+
+.borde4{
+  border: 2px solid pink;
+  float: left;
+}

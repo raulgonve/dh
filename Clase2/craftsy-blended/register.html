@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>REGISTRO</title>
+  </head>
+  <body>
+    <!-- CABECERA -->
+    <header>
+
+      <a class="logo" href="index.html">
+        <img src="img/logo.png" alt="Logo">
+      </a>
+
+      <ul class="menu">
+        <li><a href="#">SMARTPHONES</a></li>
+        <li><a href="#">TABLETS</a></li>
+        <li><a href="#">COMPUTADORAS</a></li>
+      </ul>
+
+      <ul class="menu2">
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="register.html">REGISTRO</a></li>
+      </ul>
+    </header>
+
+    <!-- CUERPO PRINCIPAL -->
+    <div class="contenedorlogin">
+
+      <h1>REGISTRATE</h1>
+    <form class="formlogin" action="index.html" method="post">
+      <div class="formregistro">
+        <p> <label for="">Nombre</label></p>
+        <input class="userfill" type="text" name="nombre" value="" placeholder="Nombre" required>
+        <p class="formlogin alert-hide">
+          Obligatorio
+        </p>
+      </div>
+      <div class="formregistro">
+        <p> <label for="">Email</label></p>
+        <input class="userfill" type="email" name="email" value="" placeholder="Email" required>
+        <p class="formlogin alert-hide">
+          Obligatorio
+        </p>
+      </div>
+      <div class="formregistro">
+        <p> <label for="">Contraseña</label></p>
+        <input class="userfill" type="password" name="password" value="" placeholder="Contraseña" required>
+        <p class="formlogin alert-hide">
+          Obligatorio
+        </p>
+      </div>
+      <div class="formregistro">
+        <p> <label for="pais">Pais de Nacimiento</label></p>
+        <select class="" name="pais">
+          <option value="">Seleccione un pais...</option>
+          <option value="ar">Argentina</option>
+          <option value="co">Colombia</option>
+          <option value="ve">Venezuela</option>
+        </select>
+        <p class="formlogin alert-hide">
+          Obligatorio
+        </p>
+      </div>
+      <div class="formregistro">
+        <p>Genero</p>
+        <div class="radio">
+          <input type="radio" name="genero" value="">Masculino
+          <input type="radio" name="genero" value="">Femenino
+          <input type="radio" name="genero" value="">Prefiero no decirlo
+        </div>
+      </div>
+      <div class="formregistro">
+        <p>Hobbies</p>
+        <div class="radio">
+          <input type="radio" name="hobbie" value="">Beisbol
+          <input type="radio" name="hobbie" value="">Futbol
+          <input type="radio" name="hobbie" value="">Programar
+        </div>
+      </div>
+      <div class="formregistro">
+        <p>Dejanos tus comentarios</p>
+        <textarea name="name" rows="8" cols="45"></textarea>
+      </div>
+      <div class="formregistro check">
+        <br>
+        <input type="checkbox" name="check" value="">Acepto Terminos y Condiciones
+      </div>
+      <div class="formulario">
+        <button class="botonlogin" type="submit" name="botonregistro">Registrarme</button>
+        <button class="botonlogin" type="reset" name="botonreset">Cancelar</button>
+      </div>
+
+
+    </form>
+    </div>
+  </body>
+</html>

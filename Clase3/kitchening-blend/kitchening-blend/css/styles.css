@@ -1,0 +1,68 @@
+body {
+  background-image: url("../images/bg-body.png");
+}
+
+header{
+  text-align: center;
+}
+
+header img{
+  border-radius: 90px;
+  border: 1px solid #acaaaa;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.toggle-nav span{
+  color: white;
+  background: black;
+  padding: 10px;
+}
+
+.main-nav ul{
+  padding-left: 0;
+}
+
+.main-nav a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 0;
+  width: 100%;
+}
+
+.main-nav li{
+  list-style-type: none;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 3px;
+}
+
+.banner{
+  display: none;
+}
+
+/* PRODUCTOS */
+
+.photo-container{
+  position: relative;
+}
+
+.photo{
+  width: 100%;
+}
+
+.special{
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.zoom{
+  position: absolute;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

@@ -1,0 +1,81 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#inicio{
+  background-image: url("../img/emilia-home.jpg");
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#acerca{
+  background-image: url("../img/emilia-about.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#musica{
+  background-image: url("../img/emilia-music-top.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.titulo{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.titulo2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  background-color: none;
+}
+
+.subtitulo {
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 2%;
+}
+
+.subtitulo2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  margin-left: 2%;
+  line-height: 0.2;
+  color: #0B9D3E;
+}
+
+.subtitulo3 {
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 2%;
+  font-size: 20px;
+  color: #0B9D3E;
+}
+
+.subtitulo4 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.menuv {
+  list-style: none;
+  line-height: 2;
+}
+
+.menuh{
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+}
+
+.iconosh {
+  display: flex;
+  float: right;
+}
+
+a{
+  text-decoration: none;
+}
